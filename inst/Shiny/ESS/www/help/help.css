@@ -1,0 +1,47 @@
+/*##################################################################################################
+
+ Styling for ch4app1
+
+##################################################################################################*/
+
+/* Modal Title Color*/
+.modal-title {
+  color: black;
+}
+
+/* Modal Text Color */
+.modal-content {
+  color: black;
+  font-size: 16px;
+}
+
+
+/* Selected Menu Style */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #478b23;
+    font-size: 16px;
+}
+
+/* Unselected Menu Color */
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Help Menu Title Text Color */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+/* Navbar Background and Border */
+.navbar-default {
+    background-color: #56a32d;
+    /* border-color: #e7e7e7; */
+    border: 3px solid black;
+}
+
+.dropdown-menu>li>a {
+    font-size: 16px;
+    color: #4f4f4f;
+}

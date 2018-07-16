@@ -1,0 +1,292 @@
+/*##################################################################################################
+
+ Styling for ch3app1
+
+##################################################################################################*/
+
+/* CI Demo Title Styling */
+
+#title3_1{
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* CI Pop Info Styling */
+
+#background3_1 {
+  
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+#pop_info3_1{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* CI Number Missed Styling*/
+
+#miss3_1{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* CI Question Header Styling */
+
+#Q3_1{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* CI Question 1 Styling */
+
+#Q13_1{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* CI Question 2 Styling */
+
+#Q23_1{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* CI Question 3 Styling */
+
+#Q33_1{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* CI Question 4 Styling */
+
+#Q43_1{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Hint 1 Text Styling */
+
+#H1text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Answer 1 Text Styling */
+
+#A1text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Hint 2 Text Styling */
+
+#H2text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Answer 2 Text Styling */
+
+#A2text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Hint 3 Text Styling */
+
+#H3text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Hint 4 Text Styling */
+
+#H4text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Answer 4 Text Styling */
+
+#A4text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Answer 3 Text Styling */
+
+#A3text3_1 {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* confidence3_1 slider styling */
+
+#confidence3_1 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #3c95af; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#confidence3_1 .irs-bar-edge {
+  background: #3c95af; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black;
+  height: 15px; 
+  width: 15px;
+}
+      
+#confidence3_1 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#confidence3_1 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#confidence3_1 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#confidence3_1 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}
+
+/* smplsize3_1 slider styling */
+
+#smplsize3_1 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #3c95af; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#smplsize3_1 .irs-bar-edge {
+  background: #3c95af; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black;
+  height: 15px; 
+  width: 15px;
+}
+      
+#smplsize3_1 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#smplsize3_1 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#smplsize3_1 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#smplsize3_1 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}
+
+/* nsamples3_13_1 slider styling */
+
+#nsamples3_1 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #3c95af; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#nsamples3_1 .irs-bar-edge {
+  background: #3c95af; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black;
+  height: 15px; 
+  width: 15px;
+}
+      
+#nsamples3_1 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#nsamples3_1 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#nsamples3_1 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#nsamples3_1 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}

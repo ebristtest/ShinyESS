@@ -1,0 +1,172 @@
+/*##################################################################################################
+
+ Styling for ch3app2
+
+##################################################################################################*/
+
+/* Dist. Means Demo Title Styling */
+
+#title32{
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Dist. Means Pop Info Text Styling */
+
+#text_pop32{
+  color: black;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Dist. Means Samp Info Text Styling */
+
+#text_samp32{
+  color: black;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Dist. Means Sim Info Text Styling */
+
+#text_sim32{
+  color: black;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* size32 slider styling */
+
+#size32 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #3c95af; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#size32 .irs-bar-edge {
+  background: #3c95af; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black; 
+  height: 15px; 
+  width: 15px;
+}
+      
+#size32 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#size32 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#size32 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#size32 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}
+
+/* skew32 slider styling */
+
+#skew32 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #3c95af; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#skew32 .irs-bar-edge {
+  background: #3c95af; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black;
+  height: 15px; 
+  width: 15px;
+}
+      
+#skew32 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#skew32 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#skew32 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#skew32 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}
+
+/* simsize32 slider styling */
+
+#simsize32 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #3c95af; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#simsize32 .irs-bar-edge {
+  background: #3c95af; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black; 
+  height: 15px; 
+  width: 15px;
+}
+      
+#simsize32 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#simsize32 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#simsize32 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#simsize32 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}

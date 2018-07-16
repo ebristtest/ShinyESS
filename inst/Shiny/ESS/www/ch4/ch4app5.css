@@ -1,0 +1,173 @@
+/*##################################################################################################
+
+ Styling for ch4app5
+
+##################################################################################################*/
+
+/* Title Styling */
+
+#title45{
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Data table styling */
+
+a {
+  color: #b30000;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, 
+.pagination>.active>span:hover, .pagination>.active>a:focus, 
+.pagination>.active>span:focus {
+  
+  background-color: #b30000;
+}
+
+/* selectInputs */
+
+#select_dataset45 .selectize-input.full {
+  background-color: #3c95af;
+}
+
+#select_y1_45a .selectize-input.full {
+  background-color: #3c95af;
+}
+
+#select_y2_45a .selectize-input.full {
+  background-color: #3c95af;
+}
+
+#select_y1_45b .selectize-input.full {
+  background-color: #3c95af;
+}
+
+#select_y2_45b .selectize-input.full {
+  background-color: #3c95af;
+}
+
+/* numericInputs */
+
+#select_N1_45a .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_N2_45a .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_N1_45b .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_N2_45b .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_mean1_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_mean2_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_var1_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_var2_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_n1_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_n2_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_N1_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#select_N2_45c .form-control {
+  background-color: #3c95af;
+  color: white;
+  border: 4px solid black;
+}
+
+#mult45 .form-control {
+  background-color: #dca909;
+  color: white;
+  border: 4px solid black;
+}
+
+/* digits slider styling */
+
+#digits45 .irs-bar {
+  width: 100%; 
+  height: 15px; 
+  background: #dca909; 
+  border-top: 3px solid black; 
+  border-bottom: 3px solid black;
+}
+      
+#digits45 .irs-bar-edge {
+  background: #dca909; 
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  border-left: 3px solid black;
+  height: 15px; 
+  width: 15px;
+}
+      
+#digits45 .irs-line {
+  border: 3px solid black; 
+  border-radius: 10px;
+  height: 15px;
+}
+
+#digits45 .irs-grid-text {
+  font-family: 'arial'; 
+  font-size: 16pt; 
+  color: black;
+  z-index: 1;
+}
+
+#digits45 .irs-single {
+  color:black; 
+  background:white; 
+  font-size: 12pt; 
+  top: -6px;
+}
+
+#digits45 .irs-slider {
+  width: 20px; 
+  height: 20px; 
+  top: 22px;
+}

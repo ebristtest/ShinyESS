@@ -1,0 +1,238 @@
+
+/*##################################################################################################
+
+ Global Styling
+
+##################################################################################################*/
+
+/* Dashboard Header Logo width*/
+@media (min-width: 768px) {
+  .main-header .logo {
+    width: 250px;
+  }
+}
+
+/* Dashboard Header Logo background color*/
+.skin-black .main-header>.logo {
+  background-color: #222d32;
+}
+
+/* Dashboard Header background color*/
+.skin-black .main-header .navbar {
+  background-color: #222d32;
+}
+
+.skin-black .main-header .logo:hover {
+  background-color: #222d32;
+}
+
+/* Dashboard Header border-bottom color*/
+.main-header {
+  border-bottom: 5px solid #dca909;
+}
+
+/* Dashboard Header Logo text color */
+.skin-black .main-header>.logo {
+    color: #fdfeff;
+}
+
+
+
+/* Dashboard Header Button color */
+.skin-black .main-header .navbar>.sidebar-toggle {
+    color: #fff;
+    border-right: 0px;
+}
+
+/* Dashboard Sidebar background color and border-right color*/
+.skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper {
+  background-color: #222d32;
+  border-right: 5px solid #dca909;
+}
+
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+  float: left;
+}
+
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: right;
+    margin-right: 25px;
+    margin-top: 7px;
+}
+
+.content{
+  
+  padding-left: 50px;
+}
+
+.left-side, .main-sidebar {
+  
+  width: 250px;
+}
+
+/* Menu Selected */
+.skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a {
+  color: #fff;
+  background: #222d32;
+  border-left-color: #fff;
+}
+
+
+.skin-black .main-header .navbar .nav>li>a {
+  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+.sidebar-collapse .left-side, .sidebar-collapse .main-sidebar {
+    
+    transform: translate(-250px, 0);
+}
+}
+
+@media (max-width: 767px) {
+.left-side, .main-sidebar {
+    
+    transform: translate(-250px,0);
+}
+}
+
+@media (max-width: 1250px) {
+.col-1 {width: 8.33%;}
+[class*="col-"] {
+    width: 100%;
+}
+}
+
+.sidebar-menu .treeview-menu>li>a {
+  
+  padding: 5px 5px 15px 10px;
+}
+
+.skin-black .treeview-menu>li>a {
+    color: #fffaec;
+}
+
+/* Dropdown menu header style*/
+
+.selectize-dropdown .optgroup-header {
+  font-size: 14px;
+  font-weight:  bold;
+  color: #474040;
+  line-height: 1.42857143;
+}
+
+/* Home page background color */
+
+.content-wrapper,
+.left-side {
+  background-color : white;
+}
+
+
+/* Wrap menu text */
+
+.sidebar-menu > li {
+    white-space: normal;
+}
+
+/* Box Border All*/
+
+.box-header .box-title, .box-header>.fa, 
+.box-header>.glyphicon, .box-header>.ion{
+
+  font-weight: bold;
+}
+
+/* Input Selections */
+
+.selectize-input.full {
+  background-color: #ffffff;
+} 
+         
+.selectize-input {
+  color: white;
+  border: 1px solid black;
+} 
+          
+.selectize-control.single .selectize-input.dropdown-active:after{
+  border-color: transparent transparent white transparent;
+} 
+          
+.selectize-control.single .selectize-input:after{
+  border-color: white transparent transparent transparent;
+} 
+          
+.form-control{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+
+/* Modal Box Styling*/
+
+.modal-lg {
+width: 95%;
+}
+
+.modal-sm {
+width: 75%;
+}
+
+/* Primary box styling (Green) */
+
+.box.box-solid.box-primary {
+  border:5px solid black;
+} 
+         
+.box.box-solid.box-primary>.box-header {
+  border-bottom: 3px solid black;
+  background-color: #2eb469;
+  color: white;
+}
+
+/* Success box styling (Blue) */
+
+.box.box-solid.box-success {
+  border: 5px solid black;
+} 
+         
+.box.box-solid.box-success>.box-header {
+  border-bottom: 3px solid black;
+  background-color: #3c95af;
+}
+
+/* Danger box styling (Purple) */
+
+.box.box-solid.box-danger {
+  border: 5px solid black;
+}
+         
+.box.box-solid.box-danger>.box-header {
+  border-bottom: 3px solid black;
+  background-color: #8b4a8b;
+}
+
+/* Warning box styling (Orange) */
+
+.box.box-solid.box-warning {
+  border: 5px solid black;
+} 
+         
+.box.box-solid.box-warning>.box-header {
+  border-bottom: 3px solid black;
+  background-color: #dca909;
+}
+
+/* Select Input Border*/
+
+.selectize-input {
+    border: 4px solid black;
+}
+
+/* Numeric Input Border */
+.form-control {
+    border: 4px solid black;
+}
