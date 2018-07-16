@@ -1,0 +1,25 @@
+Package: ShinyESS
+Title: Elementary Survey Sampling Shiny Application
+Version: 0.0.0.2
+Authors@R: person("Eric", "Brist", email = "ebrist.r@gmail.com", role = c("aut", "cre"))
+Description: This package contains a Shiny app with tools and demos that correspond to the material found in Elementary Survey Sampling 
+Depends: R (>= 3.4.4)
+Imports: 
+  tibble (>= 1.4.2),
+  ggplot2 (>= 2.2.1),
+  plyr (>= 1.8.4),
+  dplyr (>= 0.7.5),
+  MASS (>= 7.3-49),
+  shiny (>= 1.0.5),
+  shinydashboard (>= 0.7.0),
+  shinyjs (>= 1.0),
+  shinythemes (>= 1.1.1),
+  knitr (>= 1.20),
+  rmarkdown (>= 1.9),
+  kableExtra (>= 0.8.0),
+  DT (>= 0.4),
+  stringi,
+  shinyBS
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.0.1
