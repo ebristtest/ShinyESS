@@ -1,30 +1,28 @@
 ---
-title: "SRS Means and Totals"
+title: "Example: SRS Means and Totals"
 author: "Eric Brist"
 date: "July 15, 2018"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+## Examples: SRS Means and Totals
+
+#### Example 4.2 from page 85 of SMOG
+
+**Background:**
+
+Refer to Example 4.1 on page 79 and suppose that a random sample of n = 200 accounts is selected from the total of N = 1000. The sample mean of the accounts is found to be $\bar y$ = \$94.22, and the sample variance is $s^2$ = 445.21. Estimate $\mu$, the average due for all 1000 hospital accounts, and place a bound on the error of estimation.
+
+**Solution**
+
+Select the *User Values* data source. Fill in the provided information. When you're done, the input box should look like this:
+
+```{r input, echo=FALSE, fig.cap="A caption"}
+knitr::include_graphics("help/ch4/markdowns/inputs.png")
 ```
 
-## R Markdown
+In the output box, the estimate is $\hat \mu$ = \$94.22 with a margin of error of \$2.67. This margin of error is also the bound on the error of estimation since the multiplier used was 2 (see the output options box). 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r output, echo=FALSE, fig.cap="A caption"}
+knitr::include_graphics("help/ch4/markdowns/output.png")
 ```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
