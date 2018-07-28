@@ -19,7 +19,7 @@
 /* Selected Menu Style */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #478b23;
+    background-color: #3d7382;
     font-size: 16px;
 }
 
@@ -36,7 +36,7 @@
 
 /* Navbar Background and Border */
 .navbar-default {
-    background-color: #56a32d;
+    background-color: #3c95af;
     /* border-color: #e7e7e7; */
     border: 3px solid black;
 }
