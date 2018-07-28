@@ -5,6 +5,13 @@
 
 ##################################################################################################*/
 
+body {
+    max-width: 10000px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.42857143;
+}
+
 /* Dashboard Header Logo width*/
 @media (min-width: 768px) {
   .main-header .logo {
@@ -174,11 +181,11 @@
 /* Modal Box Styling*/
 
 .modal-lg {
-width: 95%;
+width: 90%;
 }
 
 .modal-sm {
-width: 75%;
+width: 65%;
 }
 
 /* Primary box styling (Green) */
