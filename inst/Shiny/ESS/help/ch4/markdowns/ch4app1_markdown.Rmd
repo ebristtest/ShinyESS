@@ -17,12 +17,12 @@ Refer to Example 4.1 on page 79 and suppose that a random sample of n = 200 acco
 
 Select the *User Values* data source. Fill in the provided information. When you're done, the input box should look like this:
 
-```{r input, echo=FALSE, fig.cap="A caption"}
-knitr::include_graphics("help/ch4/markdowns/inputs.png")
+```{r input, echo = FALSE}
+knitr::include_graphics("help/ch4/markdowns/inputs.png", dpi = 500)
 ```
 
 In the output box, the estimate is $\hat \mu$ = \$94.22 with a margin of error of \$2.67. This margin of error is also the bound on the error of estimation since the multiplier used was 2 (see the output options box). 
 
-```{r output, echo=FALSE, fig.cap="A caption"}
-knitr::include_graphics("help/ch4/markdowns/output.png")
+```{r output, echo = FALSE}
+knitr::include_graphics("help/ch4/markdowns/output.png", dpi = 500)
 ```
