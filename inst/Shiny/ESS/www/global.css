@@ -81,7 +81,7 @@ body {
 .skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a {
   color: #fff;
   background: #222d32;
-  border-left-color: #fff;
+  width: 240px;
 }
 
 
