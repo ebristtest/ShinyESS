@@ -12,7 +12,7 @@
 /* Modal Text Color */
 .modal-content {
   color: black;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -20,13 +20,13 @@
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #3d7382;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Unselected Menu Color */
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Help Menu Title Text Color */
@@ -42,6 +42,16 @@
 }
 
 .dropdown-menu>li>a {
-    font-size: 16px;
+    font-size: 14px;
     color: #4f4f4f;
 }
+
+.navbar-brand {
+   font-size: 16px;
+}
+  
+  
+  
+  
+  
+  
