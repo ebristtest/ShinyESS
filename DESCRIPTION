@@ -19,7 +19,8 @@ Imports:
   kableExtra (>= 0.8.0),
   DT (>= 0.4),
   stringi,
-  shinyBS
+  shinyBS,
+  shinycssloaders
 Encoding: UTF-8
 LazyData: TRUE
 RoxygenNote: 6.0.1
