@@ -9,6 +9,7 @@ Imports:
   ggplot2 (>= 2.2.1),
   plyr (>= 1.8.4),
   dplyr (>= 0.7.5),
+  tidyverse,
   MASS (>= 7.3-49),
   shiny (>= 1.0.5),
   shinydashboard (>= 0.7.0),
