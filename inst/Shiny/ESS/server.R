@@ -45,10 +45,6 @@ shinyServer(function(input, output, session) {
   
   # Chapter 8
   
-  eval(parse(file = "ch8/ch8app1_server.R"))
-  
-  eval(parse(file = "ch8/ch8app3_server.R"))
-  
   # Help
   
   eval(parse(file = "help/help_server.R"))
