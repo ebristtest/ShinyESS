@@ -593,7 +593,7 @@ shinyUI(
                     
                     #welcome {
                       text-align: center;
-                      font-size: 28pt;
+                      font-size: 32pt;
                       color: black;
                       font-weight: bolder;
                     } 
