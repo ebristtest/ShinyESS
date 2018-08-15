@@ -69,7 +69,7 @@ output$select_dataset43 <- renderUI({
     
     choices = dataset_choices43,
     
-    selected = "SurveySampling::data5.1example"
+    selected = "ShinyESS::data5.1example"
   )
 })
 
