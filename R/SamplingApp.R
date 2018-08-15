@@ -25,6 +25,7 @@
 runESS <- function(browser = T, path = NULL) {
   
   if(!is.null(path)) {
+    
     appDir <- path
   }
 
@@ -33,9 +34,13 @@ runESS <- function(browser = T, path = NULL) {
     appDir <- system.file("Shiny", "ESS", package = "ShinyESS")
     
     if (appDir == "") {
-      stop(c("Could not find directory. Try re-installing SurveySampling or", 
-             "manually enter directory path with the path parameter."), 
-           call. = FALSE)
+      
+      stop(
+        
+        c("Could not find directory. Try re-installing or manually enter directory path."), 
+          
+        call. = FALSE
+      )
     }
   }
   
