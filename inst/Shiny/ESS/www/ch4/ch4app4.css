@@ -18,30 +18,35 @@
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_N44 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_Bprop44 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_Btotal44 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #mult44 .form-control {
   background-color: #dca909;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 /* Bprop slider styling */

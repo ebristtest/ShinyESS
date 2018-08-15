@@ -18,36 +18,42 @@
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_sd42 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_N42 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_Bmean42 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #select_Btotal42 .form-control {
   background-color: #3c95af;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 #mult42 .form-control {
   background-color: #dca909;
   color: white;
   border: 4px solid black;
+  height: 40px;
 }
 
 /* BMean slider styling */

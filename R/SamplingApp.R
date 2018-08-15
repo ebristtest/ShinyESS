@@ -22,7 +22,7 @@
 #' # Runs the ESS Shiny app in the RStudio IDE
 #' runESS(browser = F)
 #' 
-runESS <- function(browser = T, path = NULL) {
+runESS <- function(browser = F, path = NULL) {
   
   if(!is.null(path)) {
     
@@ -44,5 +44,5 @@ runESS <- function(browser = T, path = NULL) {
     }
   }
   
-  shiny::runApp(appDir, display.mode = "normal", launch.browser = browser)
+  shiny::runApp(appDir)
 }
