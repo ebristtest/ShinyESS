@@ -1,8 +1,8 @@
-# ------------------------------------------------------------------------------ 
+# -------------------------------------------------------------------------------------------------- 
 # UI primary
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
-# Packages --------------------------------------------------------------------- 
+# Packages ----------------------------------------------------------------------------------------- 
 
 library(shiny)
 
@@ -23,23 +23,23 @@ library(knitr)
 library(rmarkdown)
 
 
-# UI ---------------------------------------------------------------------------
+# UI -----------------------------------------------------------------------------------------------
 
 shinyUI(
   
-  # Create dashboard -----------------------------------------------------------
+  # Create dashboard -------------------------------------------------------------------------------
   
   dashboardPage(
   
-  # Set Browser Title ----------------------------------------------------------  
+  # Set Browser Title ------------------------------------------------------------------------------  
   
   title = "ShinyESS",
   
-  # Set skin color to black ----------------------------------------------------
+  # Set skin color to black ------------------------------------------------------------------------
   
   skin = "black",
   
-  # Create title ---------------------------------------------------------------
+  # Create title -----------------------------------------------------------------------------------
   
   dashboardHeader(
     
@@ -71,16 +71,16 @@ shinyUI(
     
   ),
   
-  # Sidebar --------------------------------------------------------------------
+  # Sidebar ----------------------------------------------------------------------------------------
   
   dashboardSidebar(
     
     sidebarMenu(
       
-      # tab id -----------------------------------------------------------------
+      # tab id -------------------------------------------------------------------------------------
       id = "tabs",
       
-      # Home page --------------------------------------------------------------  
+      # Home page ----------------------------------------------------------------------------------  
       menuItem(
         
         text = "Home", 
@@ -90,7 +90,7 @@ shinyUI(
         icon = icon("home")
       ),
       
-      # Chapter 3 tools --------------------------------------------------------  
+      # Chapter 3 tools ----------------------------------------------------------------------------  
       menuItem(
         
         text = "Chapter 3 (Basic Concepts)", 
@@ -99,7 +99,7 @@ shinyUI(
         
         icon = icon("book"),
                
-        # Confidence Interval Demo ---------------------------------------------
+        # Confidence Interval Demo -----------------------------------------------------------------
         
         menuSubItem(
           
@@ -110,7 +110,7 @@ shinyUI(
           icon = icon("play-circle")
         ), 
                
-        # Distribution of the Means Demo ---------------------------------------
+        # Distribution of the Means Demo -----------------------------------------------------------
         
         menuSubItem(
           
@@ -122,7 +122,7 @@ shinyUI(
         )
       ),
       
-      # Chapter 4 tools --------------------------------------------------------  
+      # Chapter 4 tools ----------------------------------------------------------------------------  
       
       menuItem(
         
@@ -132,7 +132,7 @@ shinyUI(
         
         icon = icon("book"),
                
-        # SRS Estimation of a Population Mean and Total ------------------------
+        # SRS Estimation of a Population Mean and Total --------------------------------------------
                
         menuSubItem(
           
@@ -143,7 +143,7 @@ shinyUI(
           icon = icon("wrench")
         ), 
                
-        # SRS Sample Size for a Population Mean and Total ----------------------
+        # SRS Sample Size for a Population Mean and Total ------------------------------------------
                
         menuSubItem(
           
@@ -154,7 +154,7 @@ shinyUI(
           icon = icon("wrench")
         ),
         
-        # SRS Estimation of a Population Proportion ----------------------------
+        # SRS Estimation of a Population Proportion ------------------------------------------------
                
         menuSubItem(
           
@@ -165,7 +165,7 @@ shinyUI(
           icon = icon("wrench")
         ),
         
-        # SRS Sample Size Selection for a Population Proportion ----------------
+        # SRS Sample Size Selection for a Population Proportion ------------------------------------
                
         menuSubItem(
           
@@ -176,7 +176,7 @@ shinyUI(
           icon = icon("wrench")
         ),
         
-        # SRS Estimation of a Difference in Means ------------------------------
+        # SRS Estimation of a Difference in Means --------------------------------------------------
                
         menuSubItem(
           
@@ -186,7 +186,7 @@ shinyUI(
                            
           icon = icon("wrench")),
         
-        # SRS Estimation of a Difference in Proportions ------------------------
+        # SRS Estimation of a Difference in Proportions --------------------------------------------
         
         menuSubItem(
           
@@ -197,7 +197,7 @@ shinyUI(
           icon = icon("wrench")
         ),
         
-        # SRS Estimation of a Difference in Proportions ------------------------
+        # SRS Estimation of a Difference in Proportions --------------------------------------------
         
         menuSubItem(
           
@@ -209,7 +209,7 @@ shinyUI(
         )
       ),
       
-      # Chapter 5 tools --------------------------------------------------------
+      # Chapter 5 tools ----------------------------------------------------------------------------
       
       menuItem(
         
@@ -219,7 +219,7 @@ shinyUI(
         
         icon = icon("book"),
         
-        # Stratified Estimation of a Population Mean or Total ------------------
+        # Stratified Estimation of a Population Mean or Total --------------------------------------
                
         menuSubItem(
           
@@ -230,12 +230,26 @@ shinyUI(
           icon = icon("wrench")
         ),
                
-        menuSubItem("App2", tabName = "ch5app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App2", 
+          
+          tabName = "ch5app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App3", tabName = "ch5app3", icon = icon("wrench"))
+        menuSubItem(
+          
+          text = "App3", 
+          
+          tabName = "ch5app3", 
+          
+          icon = icon("wrench")
+        )
       ),
       
-      # Chapter 6 tools --------------------------------------------------------
+      # Chapter 6 tools ----------------------------------------------------------------------------
       menuItem(
         
         text = "Chapter 6 (Regresson)", 
@@ -244,14 +258,35 @@ shinyUI(
         
         icon = icon("book"),
                
-        menuSubItem("App1", tabName = "ch6app1", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App1", 
+          
+          tabName = "ch6app1", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App2", tabName = "ch6app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App2", 
+          
+          tabName = "ch6app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App3", tabName = "ch6app3", icon = icon("wrench"))
+        menuSubItem(
+          
+          text = "App3", 
+          
+          tabName = "ch6app3", 
+          
+          icon = icon("wrench")
+        )
       ),
       
-      # Chapter 7 tools --------------------------------------------------------  
+      # Chapter 7 tools ----------------------------------------------------------------------------  
       menuItem(
         
         text = "Chapter 7 (Systematic)", 
@@ -260,14 +295,35 @@ shinyUI(
         
         icon = icon("book"),
         
-        menuSubItem("App1", tabName = "ch7app1", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App1", 
+          
+          tabName = "ch7app1", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App2", tabName = "ch7app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App2", 
+          
+          tabName = "ch7app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App3", tabName = "ch7app3", icon = icon("wrench"))
+        menuSubItem(
+          
+          text = "App3", 
+          
+          tabName = "ch7app3", 
+          
+          icon = icon("wrench")
+        )
       ),
       
-      # Chapter 8 tools -------------------------------------------------------- 
+      # Chapter 8 tools ---------------------------------------------------------------------------- 
       menuItem(
         
         text = "Chapter 8 (Cluster)", 
@@ -276,18 +332,53 @@ shinyUI(
         
         icon = icon("book"),
                
-        menuSubItem("Means and Totals", tabName = "ch8app1", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "Means and Totals", 
+          
+          tabName = "ch8app1", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("Proportions", tabName = "ch8app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "Proportions", 
+          
+          tabName = "ch8app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("Sample Sizes", tabName = "ch8app3", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "Sample Sizes", 
+          
+          tabName = "ch8app3", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("PPS Sampler", tabName = "ch8app4", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "PPS Sampler", 
+          
+          tabName = "ch8app4", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("PPS Estimation", tabName = "ch8app5", icon = icon("wrench"))
+        menuSubItem(
+          
+          text = "PPS Estimation", 
+          
+          tabName = "ch8app5", 
+          
+          icon = icon("wrench")
+        )
       ),
       
-      # Chapter 9 tools --------------------------------------------------------  
+      # Chapter 9 tools ----------------------------------------------------------------------------  
       
       menuItem(
         
@@ -297,14 +388,35 @@ shinyUI(
         
         icon = icon("book"),
                
-        menuSubItem("App1", tabName = "ch9app1", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App1", 
+          
+          tabName = "ch9app1", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App2", tabName = "ch9app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App2", 
+          
+          tabName = "ch9app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App3", tabName = "ch9app3", icon = icon("wrench"))
+        menuSubItem(
+          
+          text = "App3", 
+          
+          tabName = "ch9app3", 
+          
+          icon = icon("wrench")
+        )
       ),
       
-      # Chapter 10 tools -------------------------------------------------------
+      # Chapter 10 tools ---------------------------------------------------------------------------
       
       menuItem(
         
@@ -314,14 +426,35 @@ shinyUI(
         
         icon = icon("book"),
                
-        menuSubItem("App1", tabName = "ch10app1", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App1", 
+          
+          tabName = "ch10app1", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App2", tabName = "ch10app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App2", 
+          
+          tabName = "ch10app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App3", tabName = "ch10app3", icon = icon("wrench"))
+        menuSubItem(
+          
+          text = "App3", 
+          
+          tabName = "ch10app3", 
+          
+          icon = icon("wrench")
+        )
       ),
       
-      # Chapter 11 tools -------------------------------------------------------
+      # Chapter 11 tools ---------------------------------------------------------------------------
       
       menuItem(
         
@@ -331,18 +464,39 @@ shinyUI(
         
         icon = icon("book"),
         
-        menuSubItem("App1", tabName = "ch11app1", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App1", 
+          
+          tabName = "ch11app1", 
+          
+          icon = icon("wrench")
+        ),
               
-        menuSubItem("App2", tabName = "ch11app2", icon = icon("wrench")),
+        menuSubItem(
+          
+          text = "App2", 
+          
+          tabName = "ch11app2", 
+          
+          icon = icon("wrench")
+        ),
                
-        menuSubItem("App3", tabName = "ch11app3", icon = icon("play-circle"))
+        menuSubItem(
+          
+          text = "App3", 
+          
+          tabName = "ch11app3", 
+          
+          icon = icon("play-circle")
+        )
       )
       
     ) # End: sidebarMenu()
     
   ), # End dashboardSidebar()
   
-  # Dashboard Body -------------------------------------------------------------  
+  # Dashboard Body ---------------------------------------------------------------------------------  
   
   dashboardBody(
     
@@ -376,19 +530,22 @@ shinyUI(
       )
     ),
     
-    # Load custom .css file ---------------------------------------------------- 
+    # Load custom .css file ------------------------------------------------------------------------ 
     
-    # Global
+    
+    # Global  --------------------------------------------------------------------------------------
     
     includeCSS("www/global.css"),
     
-    # Chapter 3
+    
+    # Chapter 3 ------------------------------------------------------------------------------------
     
     includeCSS("www/ch3/ch3app1.css"),
     
     includeCSS("www/ch3/ch3app2.css"),
     
-    # Chapter 4
+    
+    # Chapter 4 ------------------------------------------------------------------------------------
     
     includeCSS("www/ch4/ch4app1.css"),
     
@@ -404,31 +561,36 @@ shinyUI(
     
     includeCSS("www/ch4/ch4app7.css"),
     
-    # Chapter 5
+    
+    # Chapter 5 ------------------------------------------------------------------------------------
     
     includeCSS("www/ch5/ch5app1.css"),
     
-    # Help Pages
+    
+    # Help Pages -----------------------------------------------------------------------------------
     
     includeCSS("www/help/help.css"),
     
     
     
-    # Main body panels --------------------------------------------------------- 
+    # Main body panels ----------------------------------------------------------------------------- 
+    
     tabItems(
       
-      # Homepage --------------------------------------------------------------- 
+      # Homepage ----------------------------------------------------------------------------------- 
+      
       tabItem("home",
               
         fluidPage(
                 
-          # css for title ------------------------------------------------------ 
+          # css for title -------------------------------------------------------------------------- 
+          
           tags$head(
             
             tags$style(
                     
               HTML("
-
+                    
                     #welcome {
                       text-align: center;
                       font-size: 28pt;
@@ -456,13 +618,14 @@ shinyUI(
           ),
           
           column(3), 
+          
           column(6,
                  
           shinydashboard::box(
           
             width = 12,
             
-            # Title -------------------------------------------------------------- 
+            # Title --------------------------------------------------------------------------------
             
             fluidRow(
               
@@ -471,7 +634,7 @@ shinyUI(
                 textOutput("welcome")
             ),
             
-            # Image --------------------------------------------------------------
+            # Image --------------------------------------------------------------------------------
             
             fluidRow(
               
@@ -485,16 +648,17 @@ shinyUI(
             
           )
                 
-        ) # End home page ------------------------------------------------------
-      ), # End home page tab ---------------------------------------------------
+        ) # End home page 
+      ), # End home page tab
       
-      # A UI main body for each tool and demo ----------------------------------  
+      # A UI main body for each tool and demo ------------------------------------------------------ 
       
       # Chapter 3
       
       tabItem("ch3app1", eval(parse(file = "ch3/ch3app1_ui.R"))),
       
       tabItem("ch3app2", eval(parse(file = "ch3/ch3app2_ui.R"))),
+      
       
       # Chapter 4
       
@@ -512,9 +676,11 @@ shinyUI(
       
       tabItem("ch4app7", eval(parse(file = "ch4/ch4app7_ui.R"))),
       
+      
       # Chapter 5
       
       tabItem("ch5app1", eval(parse(file = "ch5/ch5app1_ui.R"))),
+      
       
       # Chapter 8
       
@@ -531,7 +697,7 @@ shinyUI(
     
 ) # End: shinyUI()
 
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # END UI primary
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
