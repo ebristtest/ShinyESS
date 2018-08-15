@@ -679,14 +679,7 @@ shinyUI(
       
       # Chapter 5
       
-      tabItem("ch5app1", eval(parse(file = "ch5/ch5app1_ui.R"))),
-      
-      
-      # Chapter 8
-      
-      tabItem("ch8app1", eval(parse(file = "ch8/ch8app1_ui.R"))),
-      
-      tabItem("ch8app3", eval(parse(file = "ch8/ch8app3_ui.R")))
+      tabItem("ch5app1", eval(parse(file = "ch5/ch5app1_ui.R")))
       
       
     ) # End tab items 
