@@ -50,7 +50,7 @@ output$simsize32 <- renderUI({
     
     label = "Simulation Size",
               
-    min = 1000, 
+    min = 10000, 
     
     max = 100000, 
     
@@ -169,30 +169,34 @@ output$sim32 <- renderPlot({
   
   lwr_limit <- mean_all - 4 * sd_all
   
-  
   upr_limit <- mean_all + 4 * sd_all
   
-  ggplot(data, aes(x32)) +
-    
-    geom_density(color = "#009933", fill = "#8b4a8b", alpha = 0.8) +
-    
-    theme_bw() +   
-    
-    labs(x = "", y = "") +
-    
-    stat_function(
+  range <- upr_limit - lwr_limit
+  
+  binwidth32 <- range / 24
+   
+    ggplot(data, aes(x32)) +
       
-      fun = function(x, mean, sd) {
+      geom_histogram(color = "#009933", fill = "#8b4a8b", alpha = 0.8, binwidth = binwidth32) +
+      
+      theme_bw() +   
+      
+      labs(x = "", y = "") +
+      
+      stat_function(
         
-        dnorm(x = x, mean = mean, sd = sd)
-      },
+        fun = function(x, mean, sd, n, bw) {
+          
+          dnorm(x = x, mean = mean, sd = sd) * n * bw
+        },
+        
+        args = c(mean = mean_all, sd = sd_all, n = simsize, bw = binwidth32), 
+        
+        color = "black", size = 2
+      ) +
       
-      args = c(mean = mean_all, sd = sd_all), 
-      
-      color = "black", size = 2
-    ) +
-    
-    scale_x_continuous(limits = c(lwr_limit, upr_limit))
+      scale_x_continuous(limits = c(lwr_limit, upr_limit))
+  
   })
 
   output$title32 <- renderText({
