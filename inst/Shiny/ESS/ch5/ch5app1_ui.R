@@ -1,6 +1,6 @@
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # UI ch5app1
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 fluidPage(
   
@@ -73,7 +73,7 @@ fluidPage(
                   
                   width = 6,
                   
-                  # Input: Text dataset ----------------------------------------
+                  # Input: Text dataset ------------------------------------------------------------
                   
                   uiOutput("select_dataset51")
                 ),
@@ -82,7 +82,7 @@ fluidPage(
                   
                   width = 6,
                   
-                  #Input: Stratum Id (text data) -------------------------------
+                  #Input: Stratum Id (text data) ---------------------------------------------------
                   
                   uiOutput("select_strat51a")
                 )
@@ -94,7 +94,7 @@ fluidPage(
                   
                   width = 6,
                   
-                  #Input: Variable of interest (text data) ---------------------
+                  #Input: Variable of interest (text data) -----------------------------------------
                   
                   uiOutput("select_y51a")
                 ),
@@ -107,7 +107,7 @@ fluidPage(
                 )
               ),
               
-              # Rows for strata sizes ------------------------------------------
+              # Rows for strata sizes --------------------------------------------------------------
               
               fluidRow(
                 
@@ -227,7 +227,7 @@ fluidPage(
                   
                   width = 5,
                   
-                  # Input: select file -----------------------------------------
+                  # Input: select file -------------------------------------------------------------
                   
                   uiOutput("select_csv51")
                 ),
@@ -236,7 +236,7 @@ fluidPage(
                   
                   width = 2,
                   
-                  # Input: Checkbox if file has header -------------------------
+                  # Input: Checkbox if file has header ---------------------------------------------
                   
                   radioButtons(
                     
@@ -261,7 +261,7 @@ fluidPage(
                   
                   width = 5,
                   
-                  # Input: Select separator ------------------------------------
+                  # Input: Select separator --------------------------------------------------------
                   
                   radioButtons(
                     
@@ -290,7 +290,7 @@ fluidPage(
                   
                   width = 4,
                   
-                  #Input: Stratum Id (user data) -------------------------------
+                  #Input: Stratum Id (user data) ---------------------------------------------------
                   
                   uiOutput("select_strat51b")
                 ),
@@ -299,7 +299,7 @@ fluidPage(
                   
                   width = 4,
                   
-                  #Input: Variable of interest (user data) ---------------------
+                  #Input: Variable of interest (user data) -----------------------------------------
                   
                   uiOutput("select_y51b")
                 ),
@@ -308,13 +308,13 @@ fluidPage(
                   
                   width = 4,
                   
-                  #Input: Number of Strata -------------------------------------
+                  #Input: Number of Strata ---------------------------------------------------------
 
                   uiOutput("num_strata_b51")
                 )
               ),
               
-              # Rows for strata sizes ------------------------------------------
+              # Rows for strata sizes --------------------------------------------------------------
               
               fluidRow(
                 
@@ -434,7 +434,7 @@ fluidPage(
                   
                   width = 6, 
                   
-                  # Input: Number of strata ------------------------------------                
+                  # Input: Number of strata --------------------------------------------------------                
                   
                   uiOutput("select_num_strat_51c")
                 ),
@@ -456,7 +456,7 @@ fluidPage(
                   
                   width = 12,
                   
-                  # Stratum 1 --------------------------------------------------
+                  # Stratum 1 ----------------------------------------------------------------------
                   
                   fluidRow(
                     
@@ -464,7 +464,7 @@ fluidPage(
                       
                       width = 3,
                       
-                      # Input: Sample mean stratum 1 ---------------------------
+                      # Input: Sample mean stratum 1 -----------------------------------------------
                       
                       uiOutput("select_ybar1_51c")
                     ),
@@ -477,7 +477,7 @@ fluidPage(
                         
                         condition = "input.var_or_sd_51c == 'var51'",
                         
-                        # Input: Sample variance stratum 1 ---------------------
+                        # Input: Sample variance stratum 1 -----------------------------------------
                         
                         uiOutput("select_var1_51c")
                       ),
@@ -486,7 +486,7 @@ fluidPage(
                         
                         condition = "input.var_or_sd_51c == 'sd51'",
                         
-                        # Input: Sample sd stratum 1 ---------------------------
+                        # Input: Sample sd stratum 1 -----------------------------------------------
                         
                         uiOutput("select_sd1_51c")
                       )
@@ -496,7 +496,7 @@ fluidPage(
                       
                       width = 3,
                       
-                      # Input: Sample size stratum 1 ---------------------------
+                      # Input: Sample size stratum 1 -----------------------------------------------
                       
                       uiOutput("select_n1_51c")
                     ),
@@ -505,13 +505,13 @@ fluidPage(
                       
                       width = 3,
                       
-                      # Input: Population size stratum 1 -----------------------
+                      # Input: Population size stratum 1 -------------------------------------------
                       
                       uiOutput("select_N1_51c")
                     )
                   ),
                   
-                  # Stratum 2 --------------------------------------------------
+                  # Stratum 2 ----------------------------------------------------------------------
                   
                   fluidRow(
                     
@@ -519,7 +519,7 @@ fluidPage(
                       
                       width = 3,
                       
-                      # Input: Sample mean stratum 2 ---------------------------
+                      # Input: Sample mean stratum 2 -----------------------------------------------
                       
                       uiOutput("select_ybar2_51c")
                     ),
@@ -532,7 +532,7 @@ fluidPage(
                         
                         condition = "input.var_or_sd_51c == 'var51'",
                         
-                        # Input: Sample variance stratum 2 ---------------------
+                        # Input: Sample variance stratum 2 -----------------------------------------
                         
                         uiOutput("select_var2_51c")
                       ),
@@ -541,7 +541,7 @@ fluidPage(
                         
                         condition = "input.var_or_sd_51c == 'sd51'",
                         
-                        # Input: Sample sd stratum 2 ---------------------------
+                        # Input: Sample sd stratum 2 -----------------------------------------------
                         
                         uiOutput("select_sd2_51c")
                       )
@@ -551,7 +551,7 @@ fluidPage(
                       
                       width = 3,
                       
-                      # Input: Sample size stratum 2 ---------------------------
+                      # Input: Sample size stratum 2 -----------------------------------------------
                       
                       uiOutput("select_n2_51c")
                     ),
@@ -560,13 +560,13 @@ fluidPage(
                       
                       width = 3,
                       
-                      # Input: Population size stratum 2 -----------------------
+                      # Input: Population size stratum 2 -------------------------------------------
                       
                       uiOutput("select_N2_51c")
                     )
                   ),
                   
-                  # Stratum 3 --------------------------------------------------
+                  # Stratum 3 ----------------------------------------------------------------------
                   
                   fluidRow(
                     
@@ -578,7 +578,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample mean stratum 3 -------------------------
+                        # Input: Sample mean stratum 3 ---------------------------------------------
                         
                         uiOutput("select_ybar3_51c")
                       ),
@@ -591,7 +591,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'var51'",
                           
-                          # Input: Sample variance stratum 3 -------------------
+                          # Input: Sample variance stratum 3 ---------------------------------------
                           
                           uiOutput("select_var3_51c")
                         ),
@@ -600,7 +600,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'sd51'",
                           
-                          # Input: Sample sd stratum 3 -------------------------
+                          # Input: Sample sd stratum 3 ---------------------------------------------
                           
                           uiOutput("select_sd3_51c")
                         )
@@ -610,7 +610,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample size stratum 3 -------------------------
+                        # Input: Sample size stratum 3 ---------------------------------------------
                         
                         uiOutput("select_n3_51c")
                       ),
@@ -619,14 +619,14 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Population size stratum 3 ---------------------
+                        # Input: Population size stratum 3 -----------------------------------------
                         
                         uiOutput("select_N3_51c")
                       )
                     )
                   ),
                   
-                  # Stratum 4 --------------------------------------------------
+                  # Stratum 4 ----------------------------------------------------------------------
                   
                   fluidRow(
                     
@@ -638,7 +638,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample mean stratum 4 -------------------------
+                        # Input: Sample mean stratum 4 ---------------------------------------------
                         
                         uiOutput("select_ybar4_51c")
                       ),
@@ -651,7 +651,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'var51'",
                           
-                          # Input: Sample variance stratum 4 -------------------
+                          # Input: Sample variance stratum 4 ---------------------------------------
                           
                           uiOutput("select_var4_51c")
                         ),
@@ -660,7 +660,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'sd51'",
                           
-                          # Input: Sample sd stratum 4 -------------------------
+                          # Input: Sample sd stratum 4 ---------------------------------------------
                           
                           uiOutput("select_sd4_51c")
                         )
@@ -670,7 +670,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample size stratum 4 -------------------------
+                        # Input: Sample size stratum 4 ---------------------------------------------
                         
                         uiOutput("select_n4_51c")
                       ),
@@ -679,14 +679,14 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Population size stratum 4 ---------------------
+                        # Input: Population size stratum 4 -----------------------------------------
                         
                         uiOutput("select_N4_51c")
                       )
                     )
                   ),
                   
-                  # Stratum 5 --------------------------------------------------
+                  # Stratum 5 ----------------------------------------------------------------------
                   
                   fluidRow(
                     
@@ -698,7 +698,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample mean stratum 5 -------------------------
+                        # Input: Sample mean stratum 5 ---------------------------------------------
                         
                         uiOutput("select_ybar5_51c")
                       ),
@@ -711,7 +711,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'var51'",
                           
-                          # Input: Sample variance stratum 5 -------------------
+                          # Input: Sample variance stratum 5 ---------------------------------------
                           
                           uiOutput("select_var5_51c")
                         ),
@@ -720,7 +720,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'sd51'",
                           
-                          # Input: Sample sd stratum 5 -------------------------
+                          # Input: Sample sd stratum 5 ---------------------------------------------
                           
                           uiOutput("select_sd5_51c")
                         )
@@ -730,7 +730,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample size stratum 5 -------------------------
+                        # Input: Sample size stratum 5 ---------------------------------------------
                         
                         uiOutput("select_n5_51c")
                       ),
@@ -739,14 +739,14 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Population size stratum 5 ---------------------
+                        # Input: Population size stratum 5 -----------------------------------------
                         
                         uiOutput("select_N5_51c")
                       )
                     )
                   ),
                   
-                  # Stratum 6 --------------------------------------------------
+                  # Stratum 6 ----------------------------------------------------------------------
                   
                   fluidRow(
                     
@@ -758,7 +758,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample mean stratum 6 -------------------------
+                        # Input: Sample mean stratum 6 ---------------------------------------------
                         
                         uiOutput("select_ybar6_51c")
                       ),
@@ -771,7 +771,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'var51'",
                           
-                          # Input: Sample variance stratum 6 -------------------
+                          # Input: Sample variance stratum 6 ---------------------------------------
                           
                           uiOutput("select_var6_51c")
                         ),
@@ -780,7 +780,7 @@ fluidPage(
                           
                           condition = "input.var_or_sd_51c == 'sd51'",
                           
-                          # Input: Sample sd stratum 6 -------------------------
+                          # Input: Sample sd stratum 6 ---------------------------------------------
                           
                           uiOutput("select_sd6_51c")
                         )
@@ -790,7 +790,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Sample size stratum 6 -------------------------
+                        # Input: Sample size stratum 6 ---------------------------------------------
                         
                         uiOutput("select_n6_51c")
                       ),
@@ -799,7 +799,7 @@ fluidPage(
                         
                         width = 3,
                         
-                        # Input: Population size stratum 6 ---------------------
+                        # Input: Population size stratum 6 -----------------------------------------
                         
                         uiOutput("select_N6_51c")
                       )
@@ -999,7 +999,7 @@ fluidPage(
   
 ) # End of fluidPage 
 
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # END UI ch4app1 
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
