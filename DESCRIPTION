@@ -3,7 +3,7 @@ Title: Elementary Survey Sampling Shiny Application
 Version: 0.0.0.2
 Authors@R: person("Eric", "Brist", email = "ebrist.r@gmail.com", role = c("aut", "cre"))
 Description: This package contains a Shiny app with tools and demos that correspond to the material found in Elementary Survey Sampling 
-Depends: R (>= 3.4.4)
+Depends: R (>= 3.4.3)
 Imports: 
   tibble (>= 1.4.2),
   ggplot2 (>= 2.2.1),
