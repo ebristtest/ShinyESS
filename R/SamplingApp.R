@@ -43,6 +43,5 @@ runESS <- function(browser = F, path = NULL) {
       )
     }
   }
-  
   shiny::runApp(appDir)
 }
